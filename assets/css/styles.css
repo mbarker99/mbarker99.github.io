@@ -1,0 +1,29 @@
+.l-header {
+  width: 100%;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.topnav {
+  display: flex;
+  font-size: 28px;
+}
+.nav_menu {
+ font-size: 28px;
+}
+.nav_list {
+  background-color: #dddddd;  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav_item {
+  float: left;
+  display: inline;
+}
+.nav_link {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;  
+}
