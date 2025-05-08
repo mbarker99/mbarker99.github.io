@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
         <div className="navbar-left">
-            <a href="/" className="logo">
+            <a href="/" className="text-3xl font-bold">
                 Michael Barker
             </a>
         </div>
