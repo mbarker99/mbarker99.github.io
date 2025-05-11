@@ -17,7 +17,7 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
+            <div key={skill} className="p-2 sm:w-1/4 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
                   {skill}

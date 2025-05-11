@@ -18,10 +18,28 @@ export const projects = [
 ];
 
 export const skills = [
-  "Android SDK",
+  "Android",
   "Kotlin",
   "Java",
   "Android Jetpack",
   "Jetpack Compose",
-  "MVVM"
+  "Unit-Testing", 
+  "UI-Testing",
+  "RxJava", 
+  "Dagger2/Hilt", 
+  "Koin", 
+  "Clean Code", 
+  "MVI", 
+  "MVVM", 
+  "MVP", 
+  "Mockito",
+  "JUnit", 
+  "Espresso", 
+  "Git", 
+  "Retrofit", 
+  "Ktor", 
+  "RoomDB", 
+  "Material Design", 
+  "Firebase", 
+  "Google Play Services"
 ]
