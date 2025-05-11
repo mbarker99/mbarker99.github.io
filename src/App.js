@@ -1,18 +1,13 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { NotFound } from './pages/NotFound';
+import NavBar from './components/NavBar';
+import About from './components/About';
 
 export default function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route index element = {<Home/>} />  
-          <Route path="*" element = {<NotFound/>}/>
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <NavBar />
+      <About />
+    </main>
+  )
 }
