@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A simple application that tracks the latest crypto trends. Complete with recent price change line graphs.",
     image: "./res/wallet.png",
-    link: "https://reactbootcamp.com",
+    link: "https://www.github.com/mbarker99/catacomb-app",
   },
   {
     title: "EchoJournal",
