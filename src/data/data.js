@@ -1,20 +1,31 @@
 export const projects = [
   {
+    title: "EchoJournal",
+    subtitle: "Voice Memo and Mood Tracker",
+    description: "Record voice memos, and tag them with moods to track your mental health!",
+    link: "https://github.com/mbarker99/echo-journal",
+  },
+  {
+    title: "Snoozeloo",
+    subtitle: "Alarm Clock",
+    description: "Schedule and manage alarms. Data persists after the app is killed or the device is reset!",
+    link: "https://github.com/mbarker99/Snoozeloo",
+  },
+  {
     title: "Catacomb",
     subtitle: "Cryptocurrency Tracker",
     description:
       "A simple application that tracks the latest crypto trends. Complete with recent price change line graphs.",
-    image: "./res/wallet.png",
-    link: "https://www.github.com/mbarker99/catacomb-app",
+    link: "https://github.com/mbarker99/catacomb-app",
   },
   {
-    title: "EchoJournal",
-    subtitle: "Mood Journal w/ Voice Recording",
-    description:
-      "Record messages and track your moods!",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
-  }
+    title: "Inscribe",
+    subtitle: "Note-Taking App",
+    description: "An app for jotting down simple notes akin to the Google Keep app.",
+    link: "https://github.com/mbarker99/inscribe",
+  },
+
+
 ];
 
 export const skills = [

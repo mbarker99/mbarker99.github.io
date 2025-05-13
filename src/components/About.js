@@ -1,4 +1,12 @@
 import React from "react";
+import FileSaver from "file-saver";
+
+const saveFile = () => {
+  FileSaver.saveAs(
+    process.env.PUBLIC_URL + "resume.pdf",
+    "Michael_Barker-Android_Engineer.pdf"
+  )
+}
 
 export default function About() {
   return (
@@ -11,9 +19,9 @@ export default function About() {
             Android apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            This site is a work in progress! <br />
+            I hope it provides enough information regarding my ability as
+            a Native Android developer. If not, please reach out! I would love to speak with you!
           </p>
           <div className="flex justify-center">
             <a
@@ -22,9 +30,9 @@ export default function About() {
               Work With Me
             </a>
             <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
+              onClick={saveFile}
+              className="cv ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              Download Resume
             </a>
           </div>
         </div>
