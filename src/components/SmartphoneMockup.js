@@ -71,7 +71,7 @@ const SmartphoneMockup = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center rounded-3xl bg-gray-100">
       <div className="w-72 h-[36rem] bg-black rounded-3xl shadow-xl border-4 border-gray-800 overflow-hidden flex flex-col">
         <div
           ref={scrollRef}
