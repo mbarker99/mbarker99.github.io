@@ -1,10 +1,5 @@
 import './App.css';
-import React from 'react';
-import NavBar from './components/NavBar';
-import About from './components/About';
-import Projects from './components/Projects'
-import Skills from './components/Skills';
-import Contact from './components/Contact';
+import React from 'react'; 
 import SmartphoneMockup from './components/SmartphoneMockup';
 
 export default function App() {
