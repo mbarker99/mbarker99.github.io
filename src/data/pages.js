@@ -12,7 +12,7 @@ const pages = {
         description:
           'Manage your Verizon home network settings and integrate with motion sensing devices. Available on the Google Play Store with over 50,000 downloads!',
         technologies: ['Kotlin', 'Jetpack Compose', 'MVVM', 'Retrofit', 'Play Store', 'IoT'],
-        logo: '../assets/verizon-home-logo.png',
+        logo: '/assets/verizon-home-logo.png',
         playStoreUrl: 'https://play.google.com/store/apps/details?id=com.verizon.homeapp&hl=en'
       },
       {
@@ -23,7 +23,7 @@ const pages = {
           'A hardware device with several built-in Android apps designed around integrating with your Verizon home network. Also integrates Alexa and a custom Verizon voice assistant.',
         technologies:
           ['Kotlin', 'XML Views', 'MVVM', 'Java', 'Retrofit', 'Broadcast Receivers', 'Alexa Skills Kit', 'BLE'],
-        logo: '../assets/smart-display-logo.png',
+        logo: '/assets/smart-display-logo.png',
         playStoreUrl: 'https://www.verizon.com/content/dam/verizon/support/consumer/documents/verizon-smart-display-datasheet.pdf'
 
       },
