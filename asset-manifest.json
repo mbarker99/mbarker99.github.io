@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.930baafb.css",
-    "main.js": "/static/js/main.ebe50642.js",
+    "main.js": "/static/js/main.7abf10b3.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/resume.pdf": "/static/media/resume.3854383c006a24a6b204.pdf",
     "static/media/headshot.png": "/static/media/headshot.02733845092573eaa418.png",
     "static/media/uga-logo.png": "/static/media/uga-logo.a4cf66e795586a8235bc.png",
     "index.html": "/index.html",
     "main.930baafb.css.map": "/static/css/main.930baafb.css.map",
-    "main.ebe50642.js.map": "/static/js/main.ebe50642.js.map",
+    "main.7abf10b3.js.map": "/static/js/main.7abf10b3.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.930baafb.css",
-    "static/js/main.ebe50642.js"
+    "static/js/main.7abf10b3.js"
   ]
 }
