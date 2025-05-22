@@ -45,7 +45,9 @@ const EducationScreen = () => {
                     Highlights & Activities
                 </h2>
                 <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                    <li>Graduated early</li>
+                    <li>Graduated early.</li>
+                    <li>Skilled in computer hardware and circuit design.</li>
+                    <li>Learned a vareity of languages, including C / C++, HTML / CSS, Java, Python, and Assembly.</li>
                     <li><b>Capstone Project:</b> Database Visualization App using Django and Angular</li>
                 </ul>
             </section>
