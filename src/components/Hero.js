@@ -7,14 +7,16 @@ const Hero = ({ name, title }) => (
   <section className="relative bg-gray-200 text-gray-900 p-6 pb-4 border-b border-gray-200">
     {/* Resume Download Icon */}
     <a
-      href={ResumePDF}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="absolute top-4 right-4 text-red-600 hover:text-red-700 transition"
-      title="View Resume"
-    >
-      <FiFileText size={20} />
-    </a>
+  href={ResumePDF}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="absolute top-4 right-4 flex items-center gap-1 text-red-600 hover:text-red-700 text-xs font-medium transition"
+  title="View Resume"
+>
+  <span>Resume</span>
+  <FiFileText size={18} />
+</a>
+
 
     <div className="flex flex-col items-center text-center space-y-4">
       {/* Avatar */}
