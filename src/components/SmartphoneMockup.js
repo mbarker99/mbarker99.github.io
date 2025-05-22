@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import navItems from '../data/navItems';
 import pages from '../data/pages';
 import projects from '../data/projects'
@@ -18,6 +18,13 @@ const SmartphoneMockup = () => {
   const isDragging = useRef(false);
   const startY = useRef(0);
   const scrollTop = useRef(0);
+
+  // Scroll to top on page change
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollTo({ top: 0, behavior: 'auto' });
+    }
+  }, [activePage]);
 
   // Flag to detect if user is clicking on an item (like an image or card)
   const isClickingItem = useRef(false);
