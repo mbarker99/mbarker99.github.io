@@ -6,11 +6,10 @@ const BottomNav = ({ navItems, activePage, onNavigate }) => (
       <button
         key={item.id}
         onClick={() => onNavigate(item.id)}
-        className={`flex flex-col items-center text-xs transition-colors ${
-          activePage === item.id
-            ? 'text-blue-600'
-            : 'text-gray-500 hover:text-blue-500'
-        }`}
+        className={`flex flex-col items-center text-xs transition-colors ${activePage === item.id
+            ? 'text-red-600'
+            : 'text-gray-500 hover:text-red-500'
+          }`}
       >
         {item.icon}
         <span>{item.label}</span>
