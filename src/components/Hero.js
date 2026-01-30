@@ -1,13 +1,12 @@
 import React from 'react';
 import { FiFileText } from 'react-icons/fi'; // Download icon
 import Headshot from '../assets/headshot.png';
-import ResumePDF from '../assets/resume.pdf'; // Add your resume file here
 
 const Hero = ({ name, title }) => (
   <section className="relative bg-gray-200 text-gray-900 p-6 pb-4 border-b border-gray-200">
     {/* Resume Download Icon */}
     <a
-  href={ResumePDF}
+  href={`${process.env.PUBLIC_URL}/resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="absolute top-4 right-4 flex items-center gap-1 text-red-600 hover:text-red-700 text-xs font-medium transition"
